@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Font Awesomr-->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Main CSS File-->
+    <link rel="stylesheet" href="css/index_style.css">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,700;0,800;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap"
+        rel="stylesheet">
+
+    <title>FaceLook-Responsive Social Media Website </title>
+</head>
+
+<body>
+    <!-- -----------------------------Start Of NavBar ------------------------------- -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h2 class="click">FaceLock</h2>
+            </div>
+            <div class="search-bar">
+                <span> <i class="fas fa-search"></i></span>
+                <input type="search" placeholder="Search for Persons,Pages,Groups,etc...">
+
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="click profile-photo">
+                    <img src="images/my-photo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- -----------------------------End Of NavBar ------------------------------- -->
+
+
+    <!-- -----------------------------Start Of Main --------------------------------->
+    <main>
+        <div class="container">
+
+            <!-- Start Left Side -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="images/my-photo.jpg" alt="Ahmed Osama">
+                    </div>
+                    <div class="handle">
+                        <h6  class="text-bold">Ahmed Osama</h6>
+                        <p class="text-muted">@Osama404</p>
+                    </div>
+                </a>
+                <!-- Start Sidebar of Left Side -->
+                <div class="side-bar ">
+                    <a class="menu-item active">
+                        <span><i class="fas fa-home"></i></span>
+                        <h5>Home</h5>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fas fa-compass"></i></span>
+                        <h5>Explore</h5>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="fas fa-bell"><small class="noti-count">+4</small></i></span>
+                        <h5>Notitfications</h4>
+                            <!-- Start Notitfications popup -->
+                            <div class="notificatio-popup">
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images/profile-4.jpg">
+                                    </div>
+
+                                    <div class="notification-body">
+                                        <b>Aya Essam</b> liked your photo
+                                        <small class="text-muted">5 DAYS AGO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images/profile-18.jpg">
+                                    </div>
+
+                                    <div class="notification-body">
+                                        <b>Mohamed Alaa</b> accepted your friend request
+                                        <small class="text-muted">4 DAYS AGO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images/profile-6.jpg">
+                                    </div>
+
+                                    <div class="notification-body">
+                                        <b>Hoda Youse</b> liked your comment
+                                        <small class="text-muted">10 DAYS AGO</small>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="profile-photo">
+                                        <img src="images/profile-8.jpg">
+                                    </div>
+
+                                    <div class="notification-body">
+                                        <b>Ahmed Hany</b> accepted your friend request
+                                        <small class="text-muted">17 DAYS AGO</small>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- End Notitfications popup -->
+                    </a>
+
+
+
+                    <a class=" menu-item" id="messages">
+                        <span><i class="fas fa-message">
+                                <small class="messges-count">+7</small>
+                            </i></span>
+
+
+                        <h5>Messages</h5>
+
+                       
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fas fa-bookmark"></i></span>
+                        <h5>Bookmarks</h5>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fas fa-chart-line"></i></span>
+                        <h5>Analytics</h5>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fas fa-palette"></i></span>
+                        <h5>Theme</h5>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fas fa-gear"></i></span>
+                        <h5>Setting</h5>
+                    </a>
+
+                </div>
+
+                <!-- End Sidebar of Left Side -->
+
+                <label class="btn btn-primary" for="create-post">Create</label>
+
+            </div>
+            <!-- End Left Side -->
+
+
+            <!-- Start Middle Side -->
+            <div class="middle">
+
+                <!-- Start Stories  -->
+
+                <div class="stories">
+                    <div class="story click">
+                        <div class="profile-photo">
+                            <img src="images/my-photo.jpg">
+                        </div>
+                        <div class="name">
+                            <p>Your Story</p>
+                        </div>
+                    </div>
+                    <div class="story click">
+                        <div class="profile-photo">
+                            <img src="images/profile-11.jpg">
+                        </div>
+                        <div class="name">
+                            <p>Mohamed Osama</p>
+                        </div>
+                    </div>
+                    <div class="story click">
+                        <div class="profile-photo">
+                            <img src="images/profile-11.jpg">
+                        </div>
+                        <div class="name">
+                            <p>Ahmed Hatem</p>
+                        </div>
+                    </div>
+                    <div class="story click">
+                        <div class="profile-photo">
+                            <img src="images/profile-8.jpg">
+                        </div>
+                        <div class="name">
+                            <p>Omar Ismail</p>
+                        </div>
+                    </div>
+                    <div class="story click">
+                        <div class="profile-photo">
+                            <img src="images/profile-1.jpg">
+                        </div>
+                        <div class="name">
+                            <p>Dalia Fouad</p>
+                        </div>
+                    </div>
+                    <div class="story click">
+                        <div class="profile-photo">
+                            <img src="images/profile-3.jpg">
+                        </div>
+                        <div class="name">
+                            <p>Noha Helmy</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Stories  -->
+
+                <!-- Start Creating Post  -->
+
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="images/my-photo.jpg">
+
+                    </div>
+
+                    <input type="text" id="create-post" placeholder="What's on your mind, Ahmed ">
+                    <input class="btn btn-primary " value="Post" type="submit">
+                </form>
+                <!-- End Creating Post  -->
+
+                <!-- Start Feeds   -->
+                <div class="feeds">
+                    <!-- Start Feed  -->
+
+                    <div class="feed">
+                        <div class="head ">
+                            <div class="user  ">
+                                <div class="profile-photo">
+                                    <img src=".//images/profile-8.jpg" alt="">
+                                </div>
+                                <div class="user_name">
+
+                                    <h5>Omar Ismail</h5>
+                                    <small class="text-muted">Shubra, 10 MINUTES AGO <EL-khema></EL-khema></small>
+                                </div>
+
+                            </div>
+                            <div class="icon_feed">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="photo ">
+                            <img class="photo " src="images/feedd2.jpg" alt="">
+                        </div>
+
+                        <div class="action-icons">
+                            <div class="reaction">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="far fa-comment-dots"></i>
+                                <i class="fa fa-share-alt   "></i>
+                            </div>
+
+                            <div class="bookmark">
+                                <i class="far fa-bookmark"></i>
+                            </div>
+
+                        </div>
+                        <div class="liked-by">
+
+                            <span><img src=".//images/profile-10.jpg"></span>
+                            <span><img src=".//images/profile-9.jpg"></span>
+                            <span><img src=".//images/profile-8.jpg"></span>
+
+
+                            <p>Liked by <b>Ahmed Hatem </b>and <b> 4,854 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Mostafa Mohamed </b> Good Morning Guys <span class="hash-tag">#cairo</span></p>
+                        </div>
+                        <div class=" mt-1 text-muted">View all 874 comments</div>
+
+
+
+
+
+
+                    </div>
+                    <!-- End Feed  -->
+                    <!-- Start Feed  -->
+
+                    <div class="feed">
+                        <div class="head ">
+                            <div class="user  ">
+                                <div class="profile-photo">
+                                    <img src=".//images/profile-19.JPG" alt="">
+                                </div>
+                                <div class="user_name">
+
+                                    <h5>Mohamed Osama</h5>
+                                    <small class="text-muted">Shubra EL-khema</small>
+                                </div>
+
+                            </div>
+                            <div class="icon_feed">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="photo ">
+                            <img class="photo " src="images/feedd3.jpg">
+                        </div>
+
+                        <div class="action-icons">
+                            <div class="reaction">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="far fa-comment-dots"></i>
+                                <i class="fa fa-share-alt   "></i>
+                            </div>
+
+                            <div class="bookmark">
+                                <i class="far fa-bookmark"></i>
+                            </div>
+
+                        </div>
+                        <div class="liked-by">
+
+                            <span><img src=".//images/profile-10.jpg"></span>
+                            <span><img src=".//images/profile-9.jpg"></span>
+                            <span><img src=".//images/profile-8.jpg"></span>
+
+
+                            <p>Liked by <b>Ahmed Hatem </b>and <b> 4,854 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Mohamed Osama </b>Good Morning Guys <span class="hash-tag">#cairo</span></p>
+                        </div>
+                        <div class=" mt-1 text-muted">View all 874 comments</div>
+
+
+
+
+                        <!-- End Feeds   -->
+
+                    </div>
+                    <!-- End Feed  -->
+                    <!-- Start Feed  -->
+
+                    <div class="feed">
+                        <div class="head ">
+                            <div class="user  ">
+                                <div class="profile-photo">
+                                    <img src=".//images/profile-15.jpg" alt="">
+                                </div>
+                                <div class="user_name">
+
+                                    <h5>Mohamed Osama</h5>
+                                    <small class="text-muted">Shubra EL-khema</small>
+                                </div>
+
+                            </div>
+                            <div class="icon_feed">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="photo ">
+                            <img class="photo " src="images/feedd1.jpg" alt="">
+                        </div>
+
+                        <div class="action-icons">
+                            <div class="reaction">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="far fa-comment-dots"></i>
+                                <i class="fa fa-share-alt   "></i>
+                            </div>
+
+                            <div class="bookmark">
+                                <i class="far fa-bookmark"></i>
+                            </div>
+
+                        </div>
+                        <div class="liked-by">
+
+                            <span><img src=".//images/profile-10.jpg"></span>
+                            <span><img src=".//images/profile-9.jpg"></span>
+                            <span><img src=".//images/profile-8.jpg"></span>
+
+
+                            <p>Liked by <b>Ahmed Hatem </b>and <b> 4,854 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Mohamed Osama </b>Good Morning Guys <span class="hash-tag">#cairo</span></p>
+                        </div>
+                        <div class=" mt-1 text-muted">View all 874 comments</div>
+
+
+
+
+                        <!-- End Feeds   -->
+
+                    </div>
+                    <!-- End Feed  -->
+                    <!-- Start Feed  -->
+
+                    <div class="feed">
+                        <div class="head ">
+                            <div class="user  ">
+                                <div class="profile-photo">
+                                    <img src=".//images/profile-11.jpg" alt="">
+                                </div>
+                                <div class="user_name">
+
+                                    <h5>Mohamed Osama</h5>
+                                    <small class="text-muted">Shubra EL-khema</small>
+                                </div>
+
+                            </div>
+                            <div class="icon_feed">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="photo ">
+                            <img class="photo " src="images/feedd8.jpg" alt="">
+                        </div>
+
+                        <div class="action-icons">
+                            <div class="reaction">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="far fa-comment-dots"></i>
+                                <i class="fa fa-share-alt   "></i>
+                            </div>
+
+                            <div class="bookmark">
+                                <i class="far fa-bookmark"></i>
+                            </div>
+
+                        </div>
+                        <div class="liked-by">
+
+                            <span><img src=".//images/profile-10.jpg"></span>
+                            <span><img src=".//images/profile-9.jpg"></span>
+                            <span><img src=".//images/profile-8.jpg"></span>
+
+
+                            <p>Liked by <b>Ahmed Hatem </b>and <b> 4,854 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Mohamed Osama </b>Good Morning Guys <span class="hash-tag">#cairo</span></p>
+                        </div>
+                        <div class=" mt-1 text-muted">View all 874 comments</div>
+
+
+
+
+                        <!-- End Feeds   -->
+
+                    </div>
+                    <!-- End Feed  -->
+                    <!-- Start Feed  -->
+
+                    <div class="feed">
+                        <div class="head ">
+                            <div class="user  ">
+                                <div class="profile-photo">
+                                    <img src=".//images/profile-9.jpg" alt="">
+                                </div>
+                                <div class="user_name">
+
+                                    <h5>Mohamed Osama</h5>
+                                    <small class="text-muted">Shubra EL-khema</small>
+                                </div>
+
+                            </div>
+                            <div class="icon_feed">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <div class="photo ">
+                            <img class="photo" src="images/feedd7.jpg" alt="">
+                        </div>
+
+                        <div class="action-icons">
+                            <div class="reaction">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="far fa-comment-dots"></i>
+                                <i class="fa fa-share-alt   "></i>
+                            </div>
+
+                            <div class="bookmark">
+                                <i class="far fa-bookmark"></i>
+                            </div>
+
+                        </div>
+                        <div class="liked-by">
+
+                            <span><img src=".//images/profile-10.jpg"></span>
+                            <span><img src=".//images/profile-9.jpg"></span>
+                            <span><img src=".//images/profile-8.jpg"></span>
+
+
+                            <p>Liked by <b>Ahmed Hatem </b>and <b> 4,854 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Mohamed Osama </b>Good Morning Guys <span class="hash-tag">#cairo</span></p>
+                        </div>
+                        <div class=" mt-1 text-muted">View all 874 comments</div>
+
+
+
+
+                        <!-- End Feeds   -->
+
+                    </div>
+                    <!-- End Feed  -->
+
+
+                    <!-- End middle Side -->
+
+                </div>
+            </div>
+            <!-- Start Right Side -->
+            <div class="right">
+
+                <div class="messeges">
+
+                    <div class="head-message">
+                        <h4>Messges</h4>
+                        <i class="fa fa-edit" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="search-bar">
+                        <span><i class="fa fa-search" aria-hidden="true"></i></span>
+                        <input id="message-search" type="search" placeholder="Search messages">
+                    </div>
+                    <div class="title-message">
+                        <h6 class="active">Primary</h6>
+                        <h6 class="text-center">Genral</h6>
+                        <h6 class="request text-center  ">Requests(7)</h6>
+
+                    </div>
+                    <div class="messages-text">
+                        <div class="message">
+                            <div class="story-not-show profile-photo">
+                                <img src=".//images/profile-19.jpg" alt="">
+                            </div>
+                            <div>
+                                <h6>Mohamed Osama</h6>
+                                <small><b>Just wake up, Ahmed.</b></small>
+                            </div>
+
+
+                        </div>
+                        <div class="message">
+                            <div class="online profile-photo">
+                                <img src=".//images/profile-8.jpg" alt="">
+                                <div class="online-child">
+                                </div>
+                            </div>
+                            <div>
+                                <h6>Omar Ismail</h6>
+                                <small><b>Good Morning.</b></small>
+                            </div>
+
+
+                        </div>
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src=".//images/profile-11.jpg" alt="">
+                            </div>
+                            <div>
+                                <h6>Ahmed Hatem</h6>
+                                <small class="text-muted">You: Ok.</small>
+                            </div>
+
+
+                        </div>
+                        <div class="message">
+                            <div class=" online profile-photo">
+                                <img src=".//images/profile-15.jpg" alt="">
+                                <div class="online-child">
+                                </div>
+                            </div>
+                            <div>
+                                <h6>Moaz Gamal</h6>
+                                <small class="text-muted">Thank u.</small>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="friends-requests">
+                    <div class="info">
+                        <div class="profile-photo">
+                            <img src=".//images/profile-11.jpg" alt="">
+                        </div>
+                        <div>
+                            <h6>Hossam Mohamed </h6>
+                            <p class="text-muted">8 mutual friends</p>
+                        </div>
+
+                    </div>
+                    <div class="action-request">
+                        <button class="btn btn-primary">Accept</button>
+                        <button class="btn">Decline</button>
+
+                    </div>
+                </div>
+
+                <!-- End Right Side -->
+            </div>
+
+    </main>
+
+
+
+
+
+    <!-- -----------------------------End Of Main --------------------------------->
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
